@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to my Shop</h1>
+    <br>
+    <div id="menu">
+        <h2>Our Menu</h2>
+        <br>
+        <table>
+            <tr>
+                <th>S. No.</th>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Samosa</td>
+                <td>Rs 15</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Tea</td>
+                <td>Rs 10</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Burger</td>
+                <td>Rs 25</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <label for="samosa"> Enter samosa quantity : </label>
+    <input type="number" id = "samosa">
+    <br>
+    <label for="tea"> Enter tea quantity : </label>
+    <input type="number" id="tea">
+    <br>
+    <label for="burger"> Enter burger quantity : </label>
+    <input type="number" id="burger">
+    <br>
+    <button id="bill">Submit</button>
+    <br><br>
+    <table id="bill_table">
+        <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>Samosa</td>
+            <td id="samosa_quantity"></td>
+            <td>Rs 15</td>
+            <td id="samosa_bill"></td>
+        </tr>
+        <tr>
+            <td>Tea</td>
+            <td id="tea_quantity"></td>
+            <td>Rs 10</td>
+            <td id="tea_bill"></td>
+        </tr>
+        <tr>
+            <td>Burger</td>
+            <td id="burger_quantity"></td>
+            <td>Rs 25</td>
+            <td id="burger_bill"></td>
+        </tr>
+    </table>
+    <p><strong>Total bill : <span id="total"></span> </strong></p>
+    <script src="script.js"></script>
+</body>
+</html>
