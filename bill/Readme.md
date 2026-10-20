@@ -4,10 +4,11 @@ A simple shop billing application that generates an itemized bill based on the q
 
 ## Menu
 
-| Item     |  Price |
-| Samosa   |  ₹15   |
-| Tea      |  ₹10   |
-| Burger   |  ₹25   |
+| Item | Price |
+|---|---:|
+| Samosa | ₹15 |
+| Tea | ₹10 |
+| Burger | ₹25 |
 
 ## Features
 
