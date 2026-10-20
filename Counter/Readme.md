@@ -12,11 +12,12 @@ A basic interactive counter built with JavaScript. Users can change the displaye
 
 ## JavaScript Functions
 
-|  Function    | Purpose                             |
-|  Show()      | Displays the current counter value. |
-|  increase()  | Increments the value by one.        |
-|  decrease()  | Decrements the value by one.        |
-|  reset()     | Sets the value back to zero.        |
+| Function | Purpose |
+|---|---|
+|  Show()  | Displays the current counter value. |
+|  increase()  | Increments the value by one. |
+|  decrease()  | Decrements the value by one. |
+|  reset()  | Sets the value back to zero. |
 
 The application uses JavaScript event listeners to connect button clicks to the corresponding functions.
 
